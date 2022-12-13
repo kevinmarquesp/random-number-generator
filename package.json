@@ -1,0 +1,16 @@
+{
+  "name": "Random number generator",
+  "author": "kevinmarquesp",
+  "version": "1.0.0",
+  "main": "app/index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently 'gulp dev'",
+    "bs": "gulp bs"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "concurrently": "^7.1.0",
+    "gulp": "^4.0.2"
+  }
+}
